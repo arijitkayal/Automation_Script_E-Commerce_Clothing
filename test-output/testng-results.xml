@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-20T18:58:11 IST" name="Suite" finished-at="2026-06-20T18:58:20 IST" duration-ms="8620">
+    <groups>
+      <group name="errorValidation">
+        <method signature="ErrorValidationTest.invalidLogin()[pri:0, instance:Selenium_TestNG_Framework.ErrorValidationTest@5bf0d49]" name="invalidLogin" class="Selenium_TestNG_Framework.ErrorValidationTest"/>
+      </group> <!-- errorValidation -->
+    </groups>
+    <test started-at="2026-06-20T18:58:11 IST" name="Submit Order Test" finished-at="2026-06-20T18:58:11 IST" duration-ms="11">
+    </test> <!-- Submit Order Test -->
+    <test started-at="2026-06-20T18:58:11 IST" name="Error Validation Test" finished-at="2026-06-20T18:58:20 IST" duration-ms="8620">
+      <class name="Selenium_TestNG_Framework.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium_TestNG_Framework.ErrorValidationTest@5bf0d49]" started-at="2026-06-20T18:58:11 IST" name="launchApplication" finished-at="2026-06-20T18:58:18 IST" duration-ms="6832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="invalidLogin()[pri:0, instance:Selenium_TestNG_Framework.ErrorValidationTest@5bf0d49]" started-at="2026-06-20T18:58:18 IST" name="invalidLogin" finished-at="2026-06-20T18:58:19 IST" duration-ms="1333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:Selenium_TestNG_Framework.ErrorValidationTest@5bf0d49]" started-at="2026-06-20T18:58:19 IST" name="closeApplication" finished-at="2026-06-20T18:58:20 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- Selenium_TestNG_Framework.ErrorValidationTest -->
+    </test> <!-- Error Validation Test -->
+  </suite> <!-- Suite -->
+</testng-results>
