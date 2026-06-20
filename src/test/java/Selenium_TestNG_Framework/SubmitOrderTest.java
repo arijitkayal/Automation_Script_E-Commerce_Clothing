@@ -47,7 +47,7 @@ public class SubmitOrderTest extends BaseTest {
 	    CheckOutPage checkOutPage=cartPage.checkOut();
 	   
 	    //select the country from dropdown and click on CONFIRM ORDER
-	    //small change
+	    //making a small changes for git push and ci/cd testing
 	    checkOutPage.selectCountry("india");
 	    try {
 			Thread.sleep(2000);
